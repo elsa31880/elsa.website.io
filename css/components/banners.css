@@ -1,0 +1,26 @@
+.banner {
+    background-image: url("https://www.travelmanitoba.com/imager/s3_us-west-1_amazonaws_com/manitoba-2020/images/Thompson-Pisew-Photos-2_Credit-Travel-Manitoba-large_bc0d2157d501d4729a3d5631708a6b2e.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 450px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    text-align: center;
+}
+
+.banner-content h1 {
+    font-size: 56px;
+    margin-bottom: 10px; 
+    font-family: 'Permanent Marker', serif;
+    color:beige;
+}
+
+.banner-content h2 {
+    font-size: 18px; 
+    font-family: 'Victor Mono', monospace;
+    color: beige;
+}

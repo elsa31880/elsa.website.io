@@ -1,0 +1,50 @@
+.card-container {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.card {
+    width: calc(25% - 20px); 
+    background-color: beige; 
+    padding: 20px;
+    margin-right: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.card:last-child {
+    margin-right: 0; 
+}
+
+.card:hover {
+    background-color: black; 
+    color: beige; 
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+    margin-bottom: 10px; 
+}
+
+.card-content h3 {
+    font-size: 24px;
+    font-family: cursive;
+    color: black; 
+}
+
+.card-content p {
+    font-size: 18px;
+    font-family: monospace;
+    color: black; 
+}
+.card-content h3,
+.card-content p {
+    transition: color 0.3s; 
+}
+
+.card:hover .card-content h3,
+.card:hover .card-content p {
+    color: beige; 
+}
